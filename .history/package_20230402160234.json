@@ -1,5 +1,5 @@
 {
-  "name": "blockchain-dev-bootcamp",
+  "name": "bootcamp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,10 +46,10 @@
     ]
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "chai": "^4.3.6",
     "ethers": "^5.5.4",
-    "hardhat": "^2.13.0"
+    "hardhat": "^2.10.1"
   }
 }
