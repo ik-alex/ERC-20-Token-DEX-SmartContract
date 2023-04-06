@@ -27,8 +27,6 @@ function depositToken(address _token, uint256 _amount) public {
 }
 
 function withdrawToken(address _token, uint256 _amount) public {
-    //ensure that users has enough tokens to withdraw
-    require(tokens[_token][msg.sender] >= _amount);
     //transfer token to the user
     require(Token(_token).transfer(msg.sender, _amount));
     //updates user  balance
